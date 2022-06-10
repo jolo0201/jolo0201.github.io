@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: codeFont;
+  src: url(./fonts/Ubuntu-Regular.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p{
+  font-family: codeFont;
+}
+.footer{
+  padding: 0.1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center ;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.details-title{
+  font-size: 2em;
+  color: #ae6cc4;
+  margin-bottom: 20px;
+}
+.details-tenure{
+  font-size: 0.8em;
+  color: #8e94a0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.details-info{
+  font-size: 1em;
+  color:#8e94a0;
+}
+
+.link-info{
+  text-decoration: none;
+  color: gold;
+}
+
+.center-scrollable {
+  position: static;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+hr.bar {
+  border: 1px solid #fff;
+}
+
+.contact-grid{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.svg{
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  -webkit-filter: invert(100%); 
+  filter: invert(100%);
 }

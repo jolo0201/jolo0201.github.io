@@ -1,0 +1,95 @@
+.home-content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #282c34;
+  padding: 5px;
+}
+.reference-info{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.home-header{
+  display: flex;
+  justify-content: center;
+}
+.responsive{
+  width: 60%;
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@font-face {
+  font-family: codeFont;
+  src: url(../fonts/Ubuntu-Regular.ttf);
+}
+
+p{
+  font-family: codeFont;
+}
+
+.home-header-sub{
+  font-size: 1.5em;
+  font-weight: normal;
+  color: #838995;
+  text-align: center;
+}
+
+.home-header-sub-line{
+  font-size: 1em;
+  font-weight: normal;
+  color: #838995;
+  text-align: center;
+}
+  
+
+@media only screen and (max-width: 100px) {
+  .responsive {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.data-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #24272e;
+  padding: 20px;
+  margin-top: 0.5em;
+}
