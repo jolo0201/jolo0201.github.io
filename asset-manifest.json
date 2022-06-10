@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9f9fc917.css",
+    "main.js": "/static/js/main.857c4d21.js",
+    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
+    "static/media/logo-pf-2.png": "/static/media/logo-pf-2.306c5ad6af3e8d8060e6.png",
+    "static/media/Ubuntu-Regular.ttf": "/static/media/Ubuntu-Regular.1cbb1b79a23478cc89ad.ttf",
+    "static/media/twitter.svg": "/static/media/twitter.898d947691f46d15a88bfafe1b13a5a5.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.ed1324b34473e69c8b7366e0d8d5ee94.svg",
+    "static/media/github.svg": "/static/media/github.fc0ffe042a9582d2a394e1c609baa9f2.svg",
+    "static/media/gmail.svg": "/static/media/gmail.09f59b228b67847fa9c917396a218b25.svg",
+    "index.html": "/index.html",
+    "main.9f9fc917.css.map": "/static/css/main.9f9fc917.css.map",
+    "main.857c4d21.js.map": "/static/js/main.857c4d21.js.map",
+    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f9fc917.css",
+    "static/js/main.857c4d21.js"
+  ]
+}
