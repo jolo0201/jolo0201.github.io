@@ -38,7 +38,7 @@ function Home() {
                 </a>
               </div>
               <div className='contact-grid-item'>
-                <a href='https://twitter.com/jolo0201' target='_blank' rel="noreferrer">
+                <a href='https://twitter.com/jcseeks' target='_blank' rel="noreferrer">
                   <img src={twitter} alt='logo' fluid='true' class="svg"/>
                 </a>
               </div>
